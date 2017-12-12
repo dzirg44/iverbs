@@ -1,0 +1,160 @@
+{{define "index/index"}}
+<div class="container">
+    <div class="table-wrapper">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>All <b>Irregular Verbs</b></h2>
+                </div>
+                <div class="col-sm-8">
+                    <a href="#" class="btn btn-success" onclick="add_verb()"><i class="material-icons">add</i> <span>Add new verb</span></a>
+                    <a href="#" class="btn btn-primary"><i class="material-icons">&#xE863;</i> <span>Refresh List</span></a>
+                    <a href="#" class="btn btn-info"><i class="material-icons">&#xE24D;</i> <span>Export to Excel</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="table-filter">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="show-entries">
+                        <span>Show</span>
+                        <select class="form-control">
+                            <option>5</option>
+                            <option>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                        </select>
+                        <span>entries</span>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <!--                    <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button> -->
+                    <div class="form-group pull-right">
+                        <input type="text" class="search form-control" placeholder="What you looking for?">
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Location</label>
+                        <select class="form-control">
+                            <option>All</option>
+                            <option>Berlin</option>
+                            <option>London</option>
+                            <option>Madrid</option>
+                            <option>New York</option>
+                            <option>Paris</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Status</label>
+                        <select class="form-control">
+                            <option>Any</option>
+                            <option>Delivered</option>
+                            <option>Shipped</option>
+                            <option>Pending</option>
+                            <option>Cancelled</option>
+                        </select>
+                    </div>
+                    <span class="filter-icon"><i class="fa fa-filter"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <span class="counter pull-right"></span>
+        <table class="table table-striped table-hover results">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Infinitive</th>
+                <th>PastSimple</th>
+                <th>PastParticiple</th>
+                <th>Translate</th>
+                <th>Edit/Delete</th>
+            </tr>
+            <tr class="warning no-result">
+                <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+            </tr>
+            </thead>
+            <tbody>
+            {{if .Verbs}}
+            {{range .Verbs}}
+            <tr>
+                <td scope="row">{{.Id}}</td>
+                <td>{{.Infinitive}}</td>
+                <td>{{.PastSimple}}</td>
+                <td>{{.PastParticiple}}</td>
+                <td>{{.Translate}}</td>
+            </tr>
+            {{end}}
+            {{end}}
+            </tbody>
+        </table>
+        <div class="clearfix">
+            <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+            <ul class="pagination">
+                <li class="page-item disabled"><a href="#">Previous</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item active"><a href="#" class="page-link">4</a></li>
+                <li class="page-item"><a href="#" class="page-link">5</a></li>
+                <li class="page-item"><a href="#" class="page-link">6</a></li>
+                <li class="page-item"><a href="#" class="page-link">7</a></li>
+                <li class="page-item"><a href="#" class="page-link">Next</a></li>
+            </ul>
+        </div>
+        <div class="modal fade" id="modal_form" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body form">
+                        <form action="#" id="form" class="form-horizontal">
+                            <input type="hidden" value="" name="id"/>
+                            <div class="form-body">
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Infinitive</label>
+                                    <div class="col-md-9">
+                                        <input name="infinitive" placeholder="Infinitive" class="form-control" type="text">
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Past Simple</label>
+                                    <div class="col-md-9">
+                                        <input name="pastsimple" placeholder="Past Simple" class="form-control" type="text">
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Past Participle</label>
+                                    <div class="col-md-9">
+                                        <input name="pastparticiple" placeholder="Past Participle" class="form-control" type="text">
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Translate</label>
+                                    <div class="col-md-9">
+                                        <textarea name="translate" placeholder="Translate" class="form-control"></textarea>
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="btnSave" onclick="save()" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </div>
+</div>
+{{end}}

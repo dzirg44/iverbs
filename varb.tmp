@@ -1,0 +1,84 @@
+package main
+
+import (
+	"encoding/json"
+	"io/ioutil"
+	"strings"
+	"os"
+)
+
+type Verb struct {
+	Id             int    `json:"Id"`
+	Infinitive     string `json:"Infinitive"`
+	PastSimple     string `json:"PastSimple"`
+	PastParticiple string `json:"PastParticiple"`
+	Translate      string `json:"Translate"`
+}
+
+type VerbStore struct {
+	filename string
+	AllVerbs map[int]Verb
+}
+
+func NewFileVerbStore(filename string) (*VerbStore, error) {
+	store := &VerbStore{
+		filename: filename,
+		AllVerbs: map[int]Verb{},
+	}
+	contents, err := ioutil.ReadFile(filename)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return store, nil
+		}
+		return nil, err
+	}
+	err = json.Unmarshal(contents, store)
+	if err != nil {
+		return nil, err
+	}
+	return store, nil
+}
+
+func (store VerbStore) Save(verb Verb) error {
+	store.AllVerbs[verb.Id] = verb
+	contents, err := json.MarshalIndent(store, "", "  ")
+	if err != nil {
+		return err
+	}
+	err = ioutil.WriteFile(store.filename, contents, 0644)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func (store VerbStore) Find(verbs int) (*Verb, error) {
+	if infinitiveName, ok := store.AllVerbs[verbs]; ok {
+		return &infinitiveName, nil
+	}
+	return nil, nil
+}
+
+func (store VerbStore) FindByPastSimple(pastsimple string) (*Verb, error) {
+	if pastsimple == "" {
+		return nil, nil
+	}
+	for _, psimple := range store.AllVerbs {
+		if strings.ToLower(pastsimple) == strings.ToLower(psimple.PastSimple) {
+			return &psimple, nil
+		}
+	}
+	return nil, nil
+}
+
+func (store VerbStore) FindByPastParticiple(pastparticiple string) (*Verb, error) {
+	if pastparticiple == "" {
+		return nil, nil
+	}
+	for _, pparticiple := range store.AllVerbs {
+		if strings.ToLower(pastparticiple) == strings.ToLower(pparticiple.PastParticiple) {
+			return &pparticiple, nil
+		}
+	}
+	return nil, nil
+}

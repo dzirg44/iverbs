@@ -1,0 +1,711 @@
+{
+  "AllVerbs": [
+    {
+      "Id": 0,
+      "Infinitive": "231",
+      "PastSimple": "3213",
+      "PastParticiple": "231",
+      "Translate": "3123"
+    },
+    {
+      "Id": 1,
+      "Infinitive": "beat",
+      "PastSimple": "beat",
+      "PastParticiple": "beaten",
+      "Translate": "бить, колотить"
+    },
+    {
+      "Id": 2,
+      "Infinitive": "become",
+      "PastSimple": "became",
+      "PastParticiple": "become",
+      "Translate": "становиться"
+    },
+    {
+      "Id": 3,
+      "Infinitive": "begin",
+      "PastSimple": "began",
+      "PastParticiple": "begun",
+      "Translate": "начинать"
+    },
+    {
+      "Id": 4,
+      "Infinitive": "bend",
+      "PastSimple": "bent",
+      "PastParticiple": "bent",
+      "Translate": "гнуть"
+    },
+    {
+      "Id": 5,
+      "Infinitive": "bet",
+      "PastSimple": "bet",
+      "PastParticiple": "bet",
+      "Translate": "держать пари"
+    },
+    {
+      "Id": 6,
+      "Infinitive": "bite",
+      "PastSimple": "bit",
+      "PastParticiple": "bitten",
+      "Translate": "кусать"
+    },
+    {
+      "Id": 7,
+      "Infinitive": "blow",
+      "PastSimple": "blew",
+      "PastParticiple": "blown",
+      "Translate": "дуть, выдыхать"
+    },
+    {
+      "Id": 8,
+      "Infinitive": "break",
+      "PastSimple": "broke",
+      "PastParticiple": "broken",
+      "Translate": "ломать, разбивать, разрушать"
+    },
+    {
+      "Id": 9,
+      "Infinitive": "bring",
+      "PastSimple": "brought",
+      "PastParticiple": "brought",
+      "Translate": "приносить, привозить, доставлять"
+    },
+    {
+      "Id": 10,
+      "Infinitive": "build",
+      "PastSimple": "built",
+      "PastParticiple": "built",
+      "Translate": "строить, сооружать"
+    },
+    {
+      "Id": 11,
+      "Infinitive": "buy",
+      "PastSimple": "bought",
+      "PastParticiple": "bought",
+      "Translate": "покупать, приобретать"
+    },
+    {
+      "Id": 12,
+      "Infinitive": "catch",
+      "PastSimple": "caught",
+      "PastParticiple": "caught",
+      "Translate": "ловить, поймать, схватить"
+    },
+    {
+      "Id": 13,
+      "Infinitive": "choose",
+      "PastSimple": "chose",
+      "PastParticiple": "chosen",
+      "Translate": "выбирать, избирать"
+    },
+    {
+      "Id": 14,
+      "Infinitive": "come",
+      "PastSimple": "came",
+      "PastParticiple": "come",
+      "Translate": "приходить, подходить"
+    },
+    {
+      "Id": 15,
+      "Infinitive": "cost",
+      "PastSimple": "cost",
+      "PastParticiple": "cost",
+      "Translate": "стоить, обходиться"
+    },
+    {
+      "Id": 16,
+      "Infinitive": "cut",
+      "PastSimple": "cut",
+      "PastParticiple": "cut",
+      "Translate": "резать, разрезать"
+    },
+    {
+      "Id": 17,
+      "Infinitive": "deal",
+      "PastSimple": "dealt",
+      "PastParticiple": "dealt",
+      "Translate": "иметь дело, распределять"
+    },
+    {
+      "Id": 18,
+      "Infinitive": "dig",
+      "PastSimple": "dug",
+      "PastParticiple": "dug",
+      "Translate": "копать, рыть"
+    },
+    {
+      "Id": 19,
+      "Infinitive": "do",
+      "PastSimple": "did",
+      "PastParticiple": "done",
+      "Translate": "делать, выполнять"
+    },
+    {
+      "Id": 20,
+      "Infinitive": "draw",
+      "PastSimple": "drew",
+      "PastParticiple": "drawn",
+      "Translate": "рисовать, чертить"
+    },
+    {
+      "Id": 21,
+      "Infinitive": "drink",
+      "PastSimple": "drank",
+      "PastParticiple": "drunk",
+      "Translate": "пить"
+    },
+    {
+      "Id": 22,
+      "Infinitive": "drive",
+      "PastSimple": "drove",
+      "PastParticiple": "driven",
+      "Translate": "ездить, подвозить"
+    },
+    {
+      "Id": 23,
+      "Infinitive": "eat",
+      "PastSimple": "ate",
+      "PastParticiple": "eaten",
+      "Translate": "есть, поглощать, поедать"
+    },
+    {
+      "Id": 24,
+      "Infinitive": "fall",
+      "PastSimple": "fell",
+      "PastParticiple": "fallen",
+      "Translate": "падать"
+    },
+    {
+      "Id": 25,
+      "Infinitive": "feed",
+      "PastSimple": "fed",
+      "PastParticiple": "fed",
+      "Translate": "кормить"
+    },
+    {
+      "Id": 26,
+      "Infinitive": "feel",
+      "PastSimple": "felt",
+      "PastParticiple": "felt",
+      "Translate": "чувствовать, ощущать"
+    },
+    {
+      "Id": 27,
+      "Infinitive": "fight",
+      "PastSimple": "fought",
+      "PastParticiple": "fought",
+      "Translate": "драться, сражаться, воевать"
+    },
+    {
+      "Id": 28,
+      "Infinitive": "find",
+      "PastSimple": "found",
+      "PastParticiple": "found",
+      "Translate": "находить, обнаруживать"
+    },
+    {
+      "Id": 29,
+      "Infinitive": "fly",
+      "PastSimple": "flew",
+      "PastParticiple": "flown",
+      "Translate": "летать"
+    },
+    {
+      "Id": 30,
+      "Infinitive": "forget",
+      "PastSimple": "forgot",
+      "PastParticiple": "forgotten",
+      "Translate": "забывать о (чём-либо)"
+    },
+    {
+      "Id": 31,
+      "Infinitive": "forgive",
+      "PastSimple": "forgave",
+      "PastParticiple": "forgiven",
+      "Translate": "прощать"
+    },
+    {
+      "Id": 32,
+      "Infinitive": "freeze",
+      "PastSimple": "froze",
+      "PastParticiple": "frozen",
+      "Translate": "замерзать, замирать"
+    },
+    {
+      "Id": 33,
+      "Infinitive": "get",
+      "PastSimple": "got",
+      "PastParticiple": "got",
+      "Translate": "получать, добираться"
+    },
+    {
+      "Id": 34,
+      "Infinitive": "give",
+      "PastSimple": "gave",
+      "PastParticiple": "given",
+      "Translate": "дать, подать, дарить"
+    },
+    {
+      "Id": 35,
+      "Infinitive": "go",
+      "PastSimple": "went",
+      "PastParticiple": "gone",
+      "Translate": "идти, двигаться"
+    },
+    {
+      "Id": 36,
+      "Infinitive": "grow",
+      "PastSimple": "grew",
+      "PastParticiple": "grown",
+      "Translate": "расти, вырастать"
+    },
+    {
+      "Id": 37,
+      "Infinitive": "hang",
+      "PastSimple": "hung",
+      "PastParticiple": "hung",
+      "Translate": "вешать, развешивать, висеть"
+    },
+    {
+      "Id": 38,
+      "Infinitive": "have",
+      "PastSimple": "had",
+      "PastParticiple": "had",
+      "Translate": "иметь, обладать"
+    },
+    {
+      "Id": 39,
+      "Infinitive": "hear",
+      "PastSimple": "heard",
+      "PastParticiple": "heard",
+      "Translate": "слышать, услышать"
+    },
+    {
+      "Id": 40,
+      "Infinitive": "hide",
+      "PastSimple": "hid",
+      "PastParticiple": "hidden",
+      "Translate": "прятать, скрывать"
+    },
+    {
+      "Id": 41,
+      "Infinitive": "hit",
+      "PastSimple": "hit",
+      "PastParticiple": "hit",
+      "Translate": "ударять, поражать"
+    },
+    {
+      "Id": 42,
+      "Infinitive": "hold",
+      "PastSimple": "held",
+      "PastParticiple": "held",
+      "Translate": "держать, удерживать, задерживать"
+    },
+    {
+      "Id": 43,
+      "Infinitive": "hurt",
+      "PastSimple": "hurt",
+      "PastParticiple": "hurt",
+      "Translate": "ранить, причинять боль, ушибить"
+    },
+    {
+      "Id": 44,
+      "Infinitive": "keep",
+      "PastSimple": "kept",
+      "PastParticiple": "kept",
+      "Translate": "хранить, сохранять, поддерживать"
+    },
+    {
+      "Id": 45,
+      "Infinitive": "know",
+      "PastSimple": "knew",
+      "PastParticiple": "known",
+      "Translate": "знать, иметь представление"
+    },
+    {
+      "Id": 46,
+      "Infinitive": "lay",
+      "PastSimple": "laid",
+      "PastParticiple": "laid",
+      "Translate": "класть, положить, покрывать"
+    },
+    {
+      "Id": 47,
+      "Infinitive": "lead",
+      "PastSimple": "led",
+      "PastParticiple": "led",
+      "Translate": "вести за собой, сопровождать, руководить"
+    },
+    {
+      "Id": 48,
+      "Infinitive": "leave",
+      "PastSimple": "left",
+      "PastParticiple": "left",
+      "Translate": "покидать, уходить, уезжать, оставлять"
+    },
+    {
+      "Id": 49,
+      "Infinitive": "lend",
+      "PastSimple": "lent",
+      "PastParticiple": "lent",
+      "Translate": "одалживать, давать взаймы (в долг)"
+    },
+    {
+      "Id": 50,
+      "Infinitive": "let",
+      "PastSimple": "let",
+      "PastParticiple": "let",
+      "Translate": "позволять, разрешать"
+    },
+    {
+      "Id": 51,
+      "Infinitive": "lie",
+      "PastSimple": "lay",
+      "PastParticiple": "lain",
+      "Translate": "лежать"
+    },
+    {
+      "Id": 52,
+      "Infinitive": "light",
+      "PastSimple": "lit",
+      "PastParticiple": "lit",
+      "Translate": "зажигать, светиться, освещать"
+    },
+    {
+      "Id": 53,
+      "Infinitive": "lose",
+      "PastSimple": "lost",
+      "PastParticiple": "lost",
+      "Translate": "терять, лишаться, утрачивать"
+    },
+    {
+      "Id": 54,
+      "Infinitive": "make",
+      "PastSimple": "made",
+      "PastParticiple": "made",
+      "Translate": "делать, создавать, изготавливать"
+    },
+    {
+      "Id": 55,
+      "Infinitive": "mean",
+      "PastSimple": "meant",
+      "PastParticiple": "meant",
+      "Translate": "значить, иметь в виду, подразумевать"
+    },
+    {
+      "Id": 56,
+      "Infinitive": "meet",
+      "PastSimple": "met",
+      "PastParticiple": "met",
+      "Translate": "встречать, знакомиться"
+    },
+    {
+      "Id": 57,
+      "Infinitive": "pay",
+      "PastSimple": "paid",
+      "PastParticiple": "paid",
+      "Translate": "платить, оплачивать, рассчитываться"
+    },
+    {
+      "Id": 58,
+      "Infinitive": "put",
+      "PastSimple": "put",
+      "PastParticiple": "put",
+      "Translate": "ставить, помещать, класть"
+    },
+    {
+      "Id": 59,
+      "Infinitive": "read",
+      "PastSimple": "read",
+      "PastParticiple": "read",
+      "Translate": "читать, прочитать"
+    },
+    {
+      "Id": 60,
+      "Infinitive": "ride",
+      "PastSimple": "rode",
+      "PastParticiple": "ridden",
+      "Translate": "ехать верхом, кататься"
+    },
+    {
+      "Id": 61,
+      "Infinitive": "ring",
+      "PastSimple": "rang",
+      "PastParticiple": "rung",
+      "Translate": "звенеть, звонить"
+    },
+    {
+      "Id": 62,
+      "Infinitive": "rise",
+      "PastSimple": "rose",
+      "PastParticiple": "risen",
+      "Translate": "восходить, вставать, подниматься"
+    },
+    {
+      "Id": 63,
+      "Infinitive": "run",
+      "PastSimple": "ran",
+      "PastParticiple": "run",
+      "Translate": "бежать, бегать"
+    },
+    {
+      "Id": 64,
+      "Infinitive": "say",
+      "PastSimple": "said",
+      "PastParticiple": "said",
+      "Translate": "говорить, сказать, произносить"
+    },
+    {
+      "Id": 65,
+      "Infinitive": "see",
+      "PastSimple": "saw",
+      "PastParticiple": "seen",
+      "Translate": "видеть"
+    },
+    {
+      "Id": 66,
+      "Infinitive": "seek",
+      "PastSimple": "sought",
+      "PastParticiple": "sought",
+      "Translate": "искать, разыскивать"
+    },
+    {
+      "Id": 67,
+      "Infinitive": "sell",
+      "PastSimple": "sold",
+      "PastParticiple": "sold",
+      "Translate": "продавать, торговать"
+    },
+    {
+      "Id": 68,
+      "Infinitive": "send",
+      "PastSimple": "sent",
+      "PastParticiple": "sent",
+      "Translate": "посылать, отправлять, отсылать"
+    },
+    {
+      "Id": 69,
+      "Infinitive": "set",
+      "PastSimple": "set",
+      "PastParticiple": "set",
+      "Translate": "устанавливать, задавать, назначать"
+    },
+    {
+      "Id": 70,
+      "Infinitive": "shake",
+      "PastSimple": "shook",
+      "PastParticiple": "shaken",
+      "Translate": "трясти, встряхивать"
+    },
+    {
+      "Id": 71,
+      "Infinitive": "shine",
+      "PastSimple": "shone",
+      "PastParticiple": "shone",
+      "Translate": "светить, сиять, озарять"
+    },
+    {
+      "Id": 72,
+      "Infinitive": "shoot",
+      "PastSimple": "shot",
+      "PastParticiple": "shot",
+      "Translate": "стрелять"
+    },
+    {
+      "Id": 73,
+      "Infinitive": "show",
+      "PastSimple": "showed",
+      "PastParticiple": "shown, showed",
+      "Translate": "показывать"
+    },
+    {
+      "Id": 74,
+      "Infinitive": "shut",
+      "PastSimple": "shut",
+      "PastParticiple": "shut",
+      "Translate": "закрывать, запирать, затворять"
+    },
+    {
+      "Id": 75,
+      "Infinitive": "sing",
+      "PastSimple": "sang",
+      "PastParticiple": "sung",
+      "Translate": "петь, напевать"
+    },
+    {
+      "Id": 76,
+      "Infinitive": "sink",
+      "PastSimple": "sank",
+      "PastParticiple": "sunk",
+      "Translate": "тонуть, погружаться"
+    },
+    {
+      "Id": 77,
+      "Infinitive": "sit",
+      "PastSimple": "sat",
+      "PastParticiple": "sat",
+      "Translate": "сидеть, садиться"
+    },
+    {
+      "Id": 78,
+      "Infinitive": "sleep",
+      "PastSimple": "slept",
+      "PastParticiple": "slept",
+      "Translate": "спать"
+    },
+    {
+      "Id": 79,
+      "Infinitive": "speak",
+      "PastSimple": "spoke",
+      "PastParticiple": "spoken",
+      "Translate": "говорить, разговаривать, высказываться"
+    },
+    {
+      "Id": 80,
+      "Infinitive": "spend",
+      "PastSimple": "spent",
+      "PastParticiple": "spent",
+      "Translate": "тратить, расходовать, проводить (время)"
+    },
+    {
+      "Id": 81,
+      "Infinitive": "stand",
+      "PastSimple": "stood",
+      "PastParticiple": "stood",
+      "Translate": "стоять"
+    },
+    {
+      "Id": 82,
+      "Infinitive": "steal",
+      "PastSimple": "stole",
+      "PastParticiple": "stolen",
+      "Translate": "воровать, красть"
+    },
+    {
+      "Id": 83,
+      "Infinitive": "stick",
+      "PastSimple": "stuck",
+      "PastParticiple": "stuck",
+      "Translate": "втыкать, приклеивать"
+    },
+    {
+      "Id": 84,
+      "Infinitive": "strike",
+      "PastSimple": "struck",
+      "PastParticiple": "struck, stricken",
+      "Translate": "ударять, бить, поражать"
+    },
+    {
+      "Id": 85,
+      "Infinitive": "swear",
+      "PastSimple": "swore",
+      "PastParticiple": "sworn",
+      "Translate": "клясться, присягать"
+    },
+    {
+      "Id": 86,
+      "Infinitive": "sweep",
+      "PastSimple": "swept",
+      "PastParticiple": "swept",
+      "Translate": "мести, подметать, смахивать"
+    },
+    {
+      "Id": 87,
+      "Infinitive": "swim",
+      "PastSimple": "swam",
+      "PastParticiple": "swum",
+      "Translate": "плавать, плыть"
+    },
+    {
+      "Id": 88,
+      "Infinitive": "swing",
+      "PastSimple": "swung",
+      "PastParticiple": "swung",
+      "Translate": "качаться, вертеться"
+    },
+    {
+      "Id": 89,
+      "Infinitive": "take",
+      "PastSimple": "took",
+      "PastParticiple": "taken",
+      "Translate": "брать, хватать, взять"
+    },
+    {
+      "Id": 90,
+      "Infinitive": "teach",
+      "PastSimple": "taught",
+      "PastParticiple": "taught",
+      "Translate": "учить, обучать"
+    },
+    {
+      "Id": 91,
+      "Infinitive": "tear",
+      "PastSimple": "tore",
+      "PastParticiple": "torn",
+      "Translate": "рвать, отрывать"
+    },
+    {
+      "Id": 92,
+      "Infinitive": "tell",
+      "PastSimple": "told",
+      "PastParticiple": "told",
+      "Translate": "рассказывать"
+    },
+    {
+      "Id": 93,
+      "Infinitive": "think",
+      "PastSimple": "thought",
+      "PastParticiple": "thought",
+      "Translate": "думать, мыслить, размышлять"
+    },
+    {
+      "Id": 94,
+      "Infinitive": "throw",
+      "PastSimple": "threw",
+      "PastParticiple": "thrown",
+      "Translate": "бросать, кидать, метать"
+    },
+    {
+      "Id": 95,
+      "Infinitive": "understand",
+      "PastSimple": "understood",
+      "PastParticiple": "understood",
+      "Translate": "понимать, постигать"
+    },
+    {
+      "Id": 96,
+      "Infinitive": "wake",
+      "PastSimple": "woke",
+      "PastParticiple": "woken",
+      "Translate": "просыпаться, будить"
+    },
+    {
+      "Id": 97,
+      "Infinitive": "wear",
+      "PastSimple": "wore",
+      "PastParticiple": "worn",
+      "Translate": "носить (одежду)"
+    },
+    {
+      "Id": 98,
+      "Infinitive": "win",
+      "PastSimple": "won",
+      "PastParticiple": "won",
+      "Translate": "победить, выиграть"
+    },
+    {
+      "Id": 99,
+      "Infinitive": "write",
+      "PastSimple": "wrote",
+      "PastParticiple": "written",
+      "Translate": "писать, записывать"
+    },
+    {
+      "Id": 100,
+      "Infinitive": "write",
+      "PastSimple": "wrote",
+      "PastParticiple": "written",
+      "Translate": "писать, записывать"
+    }
+  ]
+}
